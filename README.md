@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @mzabuawala
-- 👀 I’m interested in backend server programming.
+- 👀 I’m interested in Backend server programming.
 - 🌱 I’m currently learning Golang & Cloud technolgies.
-- 💞️ I’m looking to collaborate on open source projects
+- 💞️ I’m looking to collaborate on open source Python & Golang projects
 - 📫 How to reach me https://t.me/murtuzaz
 
 <!---
