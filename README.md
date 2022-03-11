@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @mzabuawala
-- 👀 I’m interested in Backend server programming and have 9+ years of expereince in software development.
+- 👀 I’m interested in Backend server programming and have 10+ years of expereince in software development.
 - 🌱 I’m fluent with Python and currently learning Golang/Cloud technolgies.
 - 🌱 I can also work with Javascript & HTML/CSS
 - 💞️ I’m looking to collaborate on open source Python & Golang projects
