@@ -240,6 +240,47 @@ main {
   opacity: 0.88;
 }
 
+/* ── Hero inner layout ── */
+.hero-inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.hero-text {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.hero-avatar-wrap {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0.4rem;
+}
+
+.hero-avatar {
+  width: 148px;
+  height: 148px;
+  border-radius: 50%;
+  padding: 4px;
+  background: linear-gradient(135deg, var(--accent-sky), var(--accent-cyan), var(--accent-coral));
+  box-shadow: 0 8px 32px #2e67f83a, 0 2px 8px #0003;
+  position: relative;
+}
+
+.hero-avatar img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+  border: 3px solid var(--hero-bg-a);
+}
+
 /* ── Status badge ── */
 .status-badge {
   display: inline-flex;
@@ -861,6 +902,21 @@ footer {
   .panel {
     padding: 1.15rem;
     border-radius: 18px;
+  }
+
+  .hero-inner {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero-avatar {
+    width: 110px;
+    height: 110px;
+  }
+
+  h1 {
+    max-width: 100%;
   }
 
   .metric-strip {
