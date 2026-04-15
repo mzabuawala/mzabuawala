@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Murtuza Zabuawala | One-Page Resume</title>
+    <style>
+      :root {
+        --ink: #1d2735;
+        --muted: #4d6179;
+        --line: #1c2f451f;
+        --accent: #1f66d1;
+        --paper: #ffffff;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        padding: 1rem;
+        background: #edf3fb;
+        color: var(--ink);
+        font-family: "Segoe UI", Tahoma, sans-serif;
+      }
+
+      .resume {
+        width: min(900px, 100%);
+        margin: 0 auto;
+        background: var(--paper);
+        border: 1px solid var(--line);
+        box-shadow: 0 14px 36px #1f2f4515;
+        padding: 1rem 1.2rem;
+      }
+
+      h1,
+      h2,
+      h3 {
+        margin: 0;
+      }
+
+      h1 {
+        font-size: 1.65rem;
+      }
+
+      h2 {
+        font-size: 0.94rem;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: var(--accent);
+        margin: 0 0 0.4rem;
+      }
+
+      p,
+      li,
+      a {
+        font-size: 0.9rem;
+        line-height: 1.4;
+      }
+
+      .head {
+        border-bottom: 1px solid var(--line);
+        padding-bottom: 0.65rem;
+        margin-bottom: 0.75rem;
+      }
+
+      .head-links {
+        margin-top: 0.3rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.7rem;
+      }
+
+      .head-links a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+
+      .summary {
+        margin: 0;
+        color: var(--muted);
+      }
+
+      .row {
+        margin-top: 0.75rem;
+      }
+
+      .role {
+        margin-bottom: 0.5rem;
+      }
+
+      .role-head {
+        display: flex;
+        justify-content: space-between;
+        gap: 0.5rem;
+      }
+
+      .role-head strong {
+        font-size: 0.92rem;
+      }
+
+      .role-head span {
+        color: var(--muted);
+        font-size: 0.86rem;
+      }
+
+      ul {
+        margin: 0.25rem 0 0;
+        padding-left: 1rem;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0.8rem;
+      }
+
+      .small {
+        color: var(--muted);
+      }
+
+      @media print {
+        @page {
+          margin: 0.45in;
+          size: A4;
+        }
+
+        body {
+          background: #fff;
+          padding: 0;
+        }
+
+        .resume {
+          border: 0;
+          box-shadow: none;
+          width: 100%;
+          margin: 0;
+          padding: 0;
+        }
+
+        a {
+          color: #000;
+          text-decoration: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <article class="resume">
+      <header class="head">
+        <h1>Murtuza Zabuawala</h1>
+        <p class="summary">
+          Engineering leader with 14+ years in full stack, data engineering, cloud,
+          microservices, and product management. Hands-on in building scalable systems and
+          leading high-performance teams.
+        </p>
+        <div class="head-links">
+          <a href="mailto:murtuza.ce@gmx.com">murtuza.ce@gmx.com</a>
+          <a href="https://github.com/mzabuawala" target="_blank" rel="noreferrer">github.com/mzabuawala</a>
+          <a href="https://www.linkedin.com/in/your-linkedin-id/" target="_blank" rel="noreferrer">linkedin.com/in/your-linkedin-id</a>
+          <span class="small">India</span>
+        </div>
+      </header>
+
+      <section class="row">
+        <h2>Core Strengths</h2>
+        <p class="small">
+          Product strategy, full stack engineering, cloud-native architecture, data platforms,
+          observability, agile delivery, cross-functional leadership.
+        </p>
+      </section>
+
+      <section class="row">
+        <h2>Experience Highlights</h2>
+        <div class="role">
+          <div class="role-head"><strong>Staff SDE, EnterpriseDB</strong><span>2023 - Present</span></div>
+          <ul>
+            <li>Leading next-gen PostgreSQL observability platform initiatives.</li>
+            <li>Driving delivery across TypeScript, React, and Go stacks.</li>
+          </ul>
+        </div>
+        <div class="role">
+          <div class="role-head"><strong>Consultant, Miratech (BlackRock)</strong><span>2022 - 2023</span></div>
+          <ul>
+            <li>Delivered 1-year stock and transaction analytics platform engagement.</li>
+            <li>Built robust dual-engine workflow in Go and Python.</li>
+          </ul>
+        </div>
+        <div class="role">
+          <div class="role-head"><strong>Staff SDE 2B, EnterpriseDB</strong><span>2015 - 2022</span></div>
+          <ul>
+            <li>Scaled PEM over a 7-year span for on-prem PostgreSQL monitoring.</li>
+            <li>Owned full-stack evolution across Flask/Python and React.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="row grid">
+        <div>
+          <h2>Featured Projects</h2>
+          <ul>
+            <li>PMM Rescue Team Tracker mobile app for NGO operations in Dahod.</li>
+            <li>Next-Gen PEM observability platform modernization.</li>
+            <li>Stock Error Analytics tool for BlackRock workflows.</li>
+            <li>Open-source contributions to pgAdmin4.</li>
+          </ul>
+        </div>
+        <div>
+          <h2>Key Certifications</h2>
+          <ul>
+            <li>Mastering Observability with OpenTelemetry (2026)</li>
+            <li>Atlassian Agile Project Management Professional Certificate (2025)</li>
+            <li>Agile Foundations (2025)</li>
+            <li>Learning the OWASP Top 10 (2024)</li>
+            <li>Microsoft Certified: Azure Fundamentals (2020)</li>
+          </ul>
+          <p class="small">
+            Full proof links are listed in the main portfolio Certifications section.
+          </p>
+        </div>
+      </section>
+    </article>
+  </body>
+</html>
